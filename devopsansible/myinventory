@@ -1,3 +1,5 @@
-192.10.14.10
-mywebserver.entreprise.com
-localhost
+[webserver]
+192.10.20.31
+mywebserver.example.com
+[database]
+192.20.34.20
