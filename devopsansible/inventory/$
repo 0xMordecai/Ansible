@@ -1,0 +1,14 @@
+[webserver]
+webserver1 ansible_host=192.10.20.31 ansible_port=2222
+webserver2 ansible_host=192.10.20.31 ansible_port=2222
+[database]
+database1 ansible_host=192.20.34.20
+ansible_user=databaseuser
+database2 ansible_host=192.20.34.21
+ansible_user=databaseuser
+[dev]
+webserver1
+database1
+[qa]
+webserver2
+database2
