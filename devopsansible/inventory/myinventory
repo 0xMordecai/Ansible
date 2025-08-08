@@ -1,6 +1,6 @@
 [webserver]
-webserver1 ansible_host=localhost ansible_port=5353
-webserver2 ansible_host=localhost ansible_port=5354
+webserver1 ansible_host=127.0.0.1 ansible_port=5353
+webserver2 ansible_host=127.0.0.1 ansible_port=5354
 [database]
 database1 ansible_host=127.0.0.1
 ansible_user=kings5layer
